@@ -41,5 +41,18 @@ class Moderation:
     await ctx.guild.ban(user, reason)
 
 
+  @commands.command()
+  @commands.has_permissions(kick_members=True)
+  @commands.has_permissions(kick_)
+  def gag(ctx, user: discord.User, time: int, *, reason="None provided"):
+    """Gags the user mentioned."""
+
+    async def gag():
+      await client.wait_until_ready()
+      
+
+
+
+
 def setup(bot):
   bot.add_cog(Moderation(bot))

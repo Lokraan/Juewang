@@ -1,8 +1,7 @@
 # Juewang
 
-- Channel Creation
-- Role Creation
-- Channel Archiving
-- Polls
-- Basic administrative tools (Mute, Kick, Ban, Warn)
-- Clone channel
+- [ ] **1. Channel / Pool Creation**
+- [ ] **2. Send Pool**
+- [ ] **3. End Pool**
+- [ ] **4. Archive Pool**
+- [ ] **5. Add Poll**
